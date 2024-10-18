@@ -4,7 +4,7 @@ Command line: python -m pytest tests/test_validators.py
 """
 import pytest
 
-from database.validator import validate_integer
+from validator import validate_integer
 
 
 class TestIntegerValidator:

@@ -3,7 +3,7 @@ Tests for CPU class
 Command line: python -m pytest database/test_cpu.py
 """
 import pytest
-from database import inventory
+import inventory
 
 
 @pytest.fixture

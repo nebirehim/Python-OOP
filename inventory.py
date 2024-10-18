@@ -1,6 +1,6 @@
 """Inventory module"""
 
-from database.validator import validate_integer
+from validator import validate_integer
 
 
 class Resource:

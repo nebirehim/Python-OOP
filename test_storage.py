@@ -4,7 +4,7 @@ Command line: python -m pytest database/test_storage.py
 """
 
 import pytest
-from database import inventory
+import inventory
 
 
 @pytest.fixture
