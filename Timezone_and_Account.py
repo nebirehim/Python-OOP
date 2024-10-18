@@ -258,6 +258,3 @@ class TestAccount(unittest.TestCase):
 
 
 run_tests(TestAccount)
-
-
-
