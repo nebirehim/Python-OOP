@@ -198,7 +198,7 @@ class Account:
 
         return conf_code
 
-    def pay_interest(self):
+    def pay_interest(self,value):
         interest = self.balance * Account.get_interest_rate() / 100
         conf_code = self.generate_confirmation_code(self._transaction_codes['interest'])
         self._balance += value
